@@ -1,0 +1,96 @@
+body {
+  margin: 0;
+  height: 100vh;
+  width: 100vw;
+  background-color: gray;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+}
+
+.card1 {
+  height: 500px;
+  width: 400px;
+  background-color: white;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.imageholder {
+  height: 250px;
+  width: 380px;
+  background-color: grey;
+  border-radius: 20px;
+}
+
+.logoholder {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+.logo {
+  height: 50px;
+  width: 50px;
+  border: 1px solid black;
+  border-radius: 5px;
+}
+
+.logo img {
+  height: 100%;
+  width: 100%;
+  object-fit: contain;
+}
+
+.button1 {
+  background-color: orangered;
+  border: none;
+  height: 30px;
+  width: 80px;
+  border-radius: 5px;
+}
+
+.nike {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 200px;
+}
+
+.nike image{
+    
+}
+
+.amount{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.amount b{
+  color: green;
+  font-size: 30px;
+}
+
+.amount span {
+  color: grey;
+  text-decoration: line-through;
+  font-size: 20px;
+}
+
+.cart button {
+  height: 50px;
+  width: 300px;
+  margin-top: 20px;
+  border-radius: 30px;
+  background-color: black;
+  color: white;
+  border: none;
+}
